@@ -25,4 +25,5 @@ int main(int argc, char **argv) {
 
   jettison_inputstruct(is);
   exit(0);
+
 }
