@@ -10,4 +10,7 @@ compile:
 	gcc -I ./include/ ./bin/jval.o ./bin/jrb.o ./bin/fields.o ./bin/dllist.o ./bin/main.o -o ./bin/main
 
 run:
-	./bin/main
+	./bin/main giris/giris.dat
+
+clean:
+	rm -rf ./bin
